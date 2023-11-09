@@ -235,7 +235,7 @@ df1 = df1.loc[linhas_selecionadas, :]
 # ===========================================
 st.markdown('# Marketplace - Visão Restaurantes')
 
-st.header('Visão Gerencial')
+st.header('Visão Gerencial', divider='gray')
 
 with st.container():
     st.markdown('## Métricas Gerais:') 
