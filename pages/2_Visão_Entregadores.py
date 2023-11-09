@@ -106,7 +106,7 @@ st.set_page_config(page_title='Visão Entregadores', page_icon=':motor_scooter:'
 # ============================================
 
 # Carregando dataset
-df_raw = pd.read_csv('../FTC/dataset/train.csv')
+df_raw = pd.read_csv('dataset/train.csv')
 
 # Copiar a base
 df_copy = df_raw.copy()
