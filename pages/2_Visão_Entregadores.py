@@ -158,7 +158,7 @@ df1 = df1.loc[linhas_selecionadas, :]
 
 st.markdown('# Marketplace - Visão Entregadores')
 
-st.header('Visão Gerencial', divider='orange')
+st.header('Visão Gerencial')
 
 with st.container():
     st.markdown('## Métricas Gerais:') 
