@@ -155,11 +155,10 @@ df1 = df1.loc[linhas_selecionadas, :]
 #============================================ 
 # Layout StreamLit 
 # ===========================================
-
 st.markdown('# Marketplace - Visão Entregadores')
 
-#st.header('Visão Gerencial')
-st.markdown("## Visão Gerencial\n---")
+st.header('Visão Gerencial', divider='gray')
+#st.markdown("## Visão Gerencial\n---")
 
 with st.container():
     st.markdown('## Métricas Gerais:') 
