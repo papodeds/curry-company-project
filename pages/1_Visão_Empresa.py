@@ -153,7 +153,7 @@ st.set_page_config(page_title='Visão Empresa', page_icon=':bar_chart:', layout=
 # ============================================
 
 # Carregando dataset
-df_raw = pd.read_csv('../FTC/dataset/train.csv')
+df_raw = pd.read_csv('../dataset/train.csv')
 
 # Copiar a base
 df_copy = df_raw.copy()
